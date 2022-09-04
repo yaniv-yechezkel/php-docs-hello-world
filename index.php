@@ -1,3 +1,6 @@
 <?php
 
-echo "Hello World!";
+$vmName = getenv('ComputerName'); 
+echo "VM name: $vmName  \r\n"
+  
+?>  
